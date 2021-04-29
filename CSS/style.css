@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    font-size: 1.3rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul{
+    width: 23rem;
+    height: 6rem;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+header a{
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+header .Icono{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-right: 1.5rem;
+}
+
+header .Foto{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+main{
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+}
+
+main .Google{
+    width: 100vw;
+    top: 11%;
+    position: relative;
+}
+
+main .Input{
+    position: relative;
+    width: 53rem;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main .InputContainer{
+    width: 52rem;
+    border-radius: 10rem;
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+main .SearchIcon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .MicroIcono{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+main .Buttons {
+    position: relative;
+    width: 53rem;
+    top: 30%;
+    margin: 0 auto;
+}
+
+main .Buttons div{
+    display: inline-block;
+}
+
+main .Buttons button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 1.4rem;
+    color: #70757a;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+
+main .Buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #f2f2f2;
+    position: relative;
+    font-size: 1.4rem;
+}
+
+footer ul{
+    position:absolute;
+    list-style-type: none;
+    list-style: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer a{
+    text-decoration: none;  
+    color: #70757a;
+}
+footer li{
+    display:inline-block;
+    padding-left: 2rem;
+}
+
+footer .left{
+    padding-left: 2rem;
+}
+
+footer .right{
+    right: 4rem;
+}
